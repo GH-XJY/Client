@@ -1,0 +1,50 @@
+{
+  "root": true,
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "localStorage": false,
+    "Vue": false,
+    "_": false,
+    "$": false,
+    "jQuery": false,
+    "util": false,
+    "axios": false,
+    "zving": false
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "standard"
+  ],
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+    "indent": "warn",
+    "semi": "warn",
+    "comma-spacing": "warn",
+    "generator-star-spacing": "off",
+    "no-caller": "off",
+    "no-control-regex": "off",
+    "no-extend-native": "off",
+    "no-irregular-whitespace": "off",
+    "no-mixed-operators": "off",
+    "no-new": "off",
+    "no-new-func": "off",
+    "no-unused-vars": "warn",
+    "new-cap":"warn",
+    "vue/no-unused-vars": "warn",
+    "key-spacing": "warn",
+    "keyword-spacing": "warn",
+    "space-infix-ops": "warn",
+    "space-before-blocks": "off",
+    "space-before-function-paren": "off",
+    "standard/object-curly-even-spacing": "warn",
+    "import/first": "warn",
+    "import/imports-first": "warn"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "env": {
+    "dev": {
+      "presets": [
+        [
+          "env", {
+            "modules": false,
+            "targets": {
+              "browsers": ["edge >= 15"]
+            },
+            "useBuiltIns": false
+          }
+        ]
+      ],
+      "plugins": ["transform-vue-jsx"]
+    },
+    "production": {
+      "presets": [
+        [
+          "env", {
+            "modules": false,
+            "targets": {
+              "browsers": ["ie >= 11"]
+            },
+            "useBuiltIns": false
+          }
+        ]
+      ],
+      "plugins": ["transform-vue-jsx"]
+    }
+  }
+}

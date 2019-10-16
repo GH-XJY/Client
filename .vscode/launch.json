@@ -1,0 +1,51 @@
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "调试npm scripts",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+          "run-script",
+          "debug"
+      ],
+      "skipFiles": [
+        "${workspaceFolder}/node_modules/@babel/**/*.js",
+        "${workspaceFolder}/node_modules/echarts/**/*.js",
+        "${workspaceFolder}/node_modules/inquirer/**/*.js",
+        "${workspaceFolder}/node_modules/rxjs/**/*.js",
+        "${workspaceFolder}/node_modules/eslint/**/*.js",
+        "${workspaceFolder}/node_modules/prettier/**/*.js",
+        "${workspaceFolder}/node_modules/babel-eslint/**/*.js",
+        "${workspaceFolder}/node_modules/core-js/**/*.js",
+        "${workspaceFolder}/node_modules/rx/**/*.js"
+      ],
+      "port": 13131
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "npm run dev",
+      "program": "npm",
+      "args": [
+        "run",
+        "dev"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "npm run build",
+      "program": "npm",
+      "args": [
+        "run",
+        "build"
+      ]
+    }
+  ]
+}
