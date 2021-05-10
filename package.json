@@ -20,7 +20,7 @@
     "element-ui": "2.3.3",
     "html2canvas": "^1.0.0-alpha.12",
     "jsplumb": "2.5.x",
-    "lodash": "3.10.1",
+    "lodash": "4.17.21",
     "mockjs": "1.x",
     "normalize.css": "^7.0.0",
     "simple-drawing-board": "^1.4.0",
